@@ -9,6 +9,7 @@ const NavBar = () => {
     margin: '0',
     padding: '0.3vw 4vw',
     background: 'rgba(33, 33, 33, 0.7)',
+    fontFamily: 'Red Hat Display,sans-serif',
     // borderBottom: '1px solid #dee2e6',
   };
   const ulStyle = {
