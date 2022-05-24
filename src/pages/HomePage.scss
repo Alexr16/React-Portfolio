@@ -128,3 +128,77 @@ body {
     max-width: 340px;
   }
 }
+
+.about-container {
+  margin-left: 10%;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-description {
+  color: white;
+  padding-left: 4%;
+  // padding-top: 7%;
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -1px;
+    font-family: Neuemontreal, sans-serif;
+    color: #fff;
+    font-size: 7vw;
+    line-height: 78px;
+  }
+
+  p {
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    padding-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Neuemontreal, sans-serif;
+    color: #fff;
+    font-size: 2vw;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: left;
+    max-width: 340px;
+  }
+}
+
+.about-image {
+  margin-left: 5vw;
+  max-width: 400px;
+  padding-top: 17%;
+}
+
+// .about-image::after {
+//   content: "";
+//   box-sizing: border-box;
+//   position: absolute;
+//   top: 95rem;
+//   left: 40rem;
+//   border-top: 9px solid #0fb;
+//   border-left: 9px solid #0fb;
+//   height: 25rem;
+//   width: 20rem;
+// }
+
+.about-button {
+  margin-top: 7%;
+  padding: 0.5rem 1.25rem;
+  background-color: var(--color-dark);
+  color: var(--color-dark);
+  font-family: Mosk,sans-serif;
+  font-weight: 600;
+  letter-spacing: .02em;
+  border: 2px solid white;
+  -webkit-box-shadow: 3px 3px #536e87;
+          box-shadow: 3px 3px #536e87;
+}
