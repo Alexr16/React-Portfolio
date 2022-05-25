@@ -28,7 +28,7 @@ const About = () => (
       </div>
     </div>
     <hr className="line-space" />
-    <div>
+    <div className="about-final-content">
       <div className="skills-container">
         <div className="language">
           <h4>Language</h4>
