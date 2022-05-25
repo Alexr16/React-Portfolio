@@ -20,7 +20,7 @@ const About = () => (
           </p>
         </div>
         <div>
-          <button type="button" className="about-button">Get My Resume</button>
+          <button type="button" className="about-button button">Get My Resume</button>
         </div>
       </div>
       <div className="about-image">

@@ -31,7 +31,7 @@ const Contact = () => (
               />
             </li>
             <li className="submit-button">
-              <button className="about-button" type="submit">Send Message</button>
+              <button className="about-button button" type="submit">Send Message</button>
               <span className="error hidde-span" />
             </li>
           </ul>
