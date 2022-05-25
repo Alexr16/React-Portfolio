@@ -193,12 +193,125 @@ body {
 .about-button {
   margin-top: 7%;
   padding: 0.5rem 1.25rem;
-  background-color: var(--color-dark);
-  color: var(--color-dark);
+  background-color: black;
+  color: white;
   font-family: Mosk,sans-serif;
   font-weight: 600;
   letter-spacing: .02em;
   border: 2px solid white;
   -webkit-box-shadow: 3px 3px #536e87;
           box-shadow: 3px 3px #536e87;
+}
+
+.line-space {
+  margin-left: 14%;
+  margin-right: auto;
+  width: 30%;
+}
+
+.skills-container {
+  color: #fff;
+  margin-left: 14%;
+  margin-right: auto;
+  display: grid;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 50% 50%;
+  // border: 4px solid white;
+  border-color: aqua;
+  border-radius: 20px;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  padding: 2vw 0;
+
+  h4 {
+    font-family: Neuemontreal, sans-serif;
+    letter-spacing: .04em;
+    font-size: 2.5em;
+    color: #121212;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FFFFFF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+}
+
+.framework {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // border-bottom-right-radius: 20px;
+  // border-top-right-radius: 20px;
+  h4 {
+    font-family: Neuemontreal, sans-serif;
+    letter-spacing: .04em;
+    font-size: 2.5em;
+    color: #fff;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+}
+
+.skills {
+  color: #fff;
+  margin-left: 10%;
+  margin-right: auto;
+  padding-left: 4%;
+  width: 80%;
+  max-width: 960px;
+  position: relative;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: flex-start;
+  // align-items: center;
+  h4 {
+    font-family: Neuemontreal, sans-serif;
+    letter-spacing: .04em;
+    font-size: 2.5em;
+    color: #fff;
+    // -webkit-text-stroke-width: 1px;
+    // -webkit-text-stroke-color: gray;
+    margin-block-start: 0;
+    margin-block-end: 10px;
+  }
+}
+
+// @mixin stagger-anim-delay($i, $initial-delay, $stagger-delay) {
+//   @while $i > 0 {
+//     &:nth-of-type(#{$i}) {
+//       animation-delay: $initial-delay + $stagger-delay * $i;
+//     }
+//     $i: $i - 1;
+//   }
+// }
+
+.chart__label {
+  padding-left: 10px;
+  line-height: 20px;
+}
+
+.chart__bar {
+  height: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+  // animation: 0.8s anim-lightspeed-in ease forwards;
+  // .chart--dev & {
+  //   @include stagger-anim-delay(11, 0.5s, 0.2s);
+  // }
+  // .chart--prod & {
+  //   @include stagger-anim-delay(2, 3.8s, 0.2s);
+  // }
+  // .chart--design & {
+  //   @include stagger-anim-delay(4, 5s, 0.2s);
+  // }
 }
