@@ -12,6 +12,18 @@ body {
   background-color: black;
 }
 
+.button {
+  padding: 0.5rem 1.25rem;
+  background-color: black;
+  color: white;
+  font-family: Mosk,sans-serif;
+  font-weight: 600;
+  letter-spacing: .02em;
+  border: 2px solid white;
+  -webkit-box-shadow: 3px 3px #536e87;
+          box-shadow: 3px 3px #536e87;
+}
+
 .headline-icons {
   width: 40px;
   position: fixed;
@@ -63,6 +75,7 @@ body {
 .header-container {
   margin-left: 10%;
   margin-right: auto;
+  margin-bottom: 15%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -129,6 +142,92 @@ body {
   }
 }
 
+.feature-container {
+  margin-left: 14%;
+  margin-right: auto;
+  color: #fff;
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 10%;
+    margin-left: -1px;
+    font-family: Neuemontreal, sans-serif;
+    color: #fff;
+    font-size: 7vw;
+    line-height: 78px;
+  }
+}
+
+.project-content {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 50% 50%;
+}
+
+.content-container {
+  margin-right: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-items: right;
+  text-align: end;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0px;
+    font-size: 0.8em;
+  }
+
+  h3 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+.feature-paragraph {
+  box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+  padding: 1rem;
+  // position: relative;
+  // z-index: 2;
+  // padding-top: 25px;
+  background-color: #112240;
+  color: #a8b2d1;
+  font-size: 18px;
+}
+
+.project-img {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  z-index: -1;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+.item {
+  color: #ccd6f6;
+  font-size: 13px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.project-button {
+  margin-top: 0;
+}
+
 .about-container {
   margin-left: 10%;
   margin-right: auto;
@@ -192,15 +291,6 @@ body {
 
 .about-button {
   margin-top: 7%;
-  padding: 0.5rem 1.25rem;
-  background-color: black;
-  color: white;
-  font-family: Mosk,sans-serif;
-  font-weight: 600;
-  letter-spacing: .02em;
-  border: 2px solid white;
-  -webkit-box-shadow: 3px 3px #536e87;
-          box-shadow: 3px 3px #536e87;
 }
 
 .line-space {
