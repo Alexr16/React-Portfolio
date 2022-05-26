@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.scss';
+import map from '../images/map.svg';
 
 const Contact = () => (
   <>
@@ -37,7 +38,15 @@ const Contact = () => (
           </ul>
         </form>
       </div>
-      <div className="form-decoration" />
+      <div
+        className="form-decoration"
+        style={{
+          backgroundImage: `url(${map})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        }}
+      />
     </div>
     <div className="footer">
       <hr />
