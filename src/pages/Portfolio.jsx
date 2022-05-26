@@ -4,11 +4,18 @@ import { useDispatch } from 'react-redux';
 import Technologies from '../components/Badgets';
 import { fetchProjectsData } from '../Redux/Projects/Projects';
 import projectsData from '../Data/projectsData';
-import project from '../images/project1.svg';
+// import project from '../images/project1.svg';
+import ProjectCard from '../components/ProjectCard';
 
 const Portfolio = () => {
   const dispatch = useDispatch();
   const [info] = useState(dispatch(fetchProjectsData(projectsData)));
+  const projectFilter = info.data.reduce((result, project) => {
+    if (project.id > 1) {
+      result.push(project);
+    }
+    return result;
+  }, []);
 
   return (
     <>
@@ -16,7 +23,7 @@ const Portfolio = () => {
         <h2>My Recent Works</h2>
         <div className="project-content">
           <div className="project-img">
-            <img src={project} alt="profile" width="100%" />
+            <img src={info.data[0].image} alt="profile" width="100%" />
           </div>
           <div className="content-container">
             <p>Feature Project</p>
@@ -37,6 +44,18 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="projects-container">
+        <ul className="project-cards-container">
+          {projectFilter.map(
+            (project) => (
+              <ProjectCard
+                key={project.id}
+                project={project}
+              />
+            ),
+          )}
+        </ul>
       </div>
     </>
   );
