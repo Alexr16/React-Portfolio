@@ -1,3 +1,5 @@
+import image1 from '../images/project1.svg';
+
 const projectData = [
   {
     id: 1,
@@ -19,70 +21,70 @@ const projectData = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     liveButton: 'https://',
     sourceButton: 'https://',
-    image: 'P1',
+    image: image1,
   },
   {
     id: 2,
     title: 'Project 1',
     technologies: [
       {
-        id: 't1',
+        id: 't4',
         technologie: 'css',
       },
       {
-        id: 't2',
+        id: 't5',
         technologie: 'html',
       },
       {
-        id: 't3',
+        id: 't6',
         technologie: 'Bootstrap',
       },
       {
-        id: 't3',
+        id: 't7',
         technologie: 'Ruby',
       },
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     liveButton: 'https://',
     sourceButton: 'https://',
-    image: 'P2',
+    image: image1,
   },
   {
     id: 3,
     title: 'Project 2',
     technologies: [
       {
-        id: 't1',
+        id: 't8',
         technologie: 'css',
       },
       {
-        id: 't2',
+        id: 't9',
         technologie: 'html',
       },
       {
-        id: 't3',
+        id: 't10',
         technologie: 'Bootstrap',
       },
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     liveButton: 'https://',
     sourceButton: 'https://',
-    image: 'P3',
+    image: image1,
   },
   {
     id: 4,
     title: 'Project 3',
     technologies: [
       {
-        id: 't1',
+        id: 't11',
         technologie: 'css',
       },
       {
-        id: 't2',
+        id: 't12',
         technologie: 'html',
       },
       {
-        id: 't3',
+        id: 't13',
         technologie: 'Bootstrap',
       },
       {
@@ -93,55 +95,55 @@ const projectData = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     liveButton: 'https://',
     sourceButton: 'https://',
-    image: 'P4',
+    image: image1,
   },
   {
     id: 5,
     title: 'Project 4',
     technologies: [
       {
-        id: 't1',
+        id: 't14',
         technologie: 'css',
       },
       {
-        id: 't2',
+        id: 't15',
         technologie: 'html',
       },
       {
-        id: 't3',
+        id: 't16',
         technologie: 'Bootstrap',
       },
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     liveButton: 'https://',
     sourceButton: 'https://',
-    image: 'P5',
+    image: image1,
   },
   {
     id: 6,
     title: 'Project 5',
     technologies: [
       {
-        id: 't1',
+        id: 't17',
         technologie: 'css',
       },
       {
-        id: 't2',
+        id: 't18',
         technologie: 'html',
       },
       {
-        id: 't3',
+        id: 't19',
         technologie: 'Bootstrap',
       },
       {
-        id: 't3',
+        id: 't20',
         technologie: 'Ruby',
       },
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     liveButton: 'https://',
     sourceButton: 'https://',
-    image: 'P6',
+    image: image1,
   },
 ];
 
