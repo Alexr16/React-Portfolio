@@ -6,10 +6,17 @@ import { fetchProjectsData } from '../Redux/Projects/Projects';
 import projectsData from '../Data/projectsData';
 // import project from '../images/project1.svg';
 import ProjectCard from '../components/ProjectCard';
+import PopUP from '../components/PopUp';
 
 const Portfolio = () => {
   const dispatch = useDispatch();
   const [info] = useState(dispatch(fetchProjectsData(projectsData)));
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  };
+
   const projectFilter = info.data.reduce((result, project) => {
     if (project.id > 1) {
       result.push(project);
@@ -40,7 +47,7 @@ const Portfolio = () => {
               ))}
             </ul>
             <div className="see-project">
-              <button className="button project-button" type="button">See Project</button>
+              <button className="button project-button" type="button" onClick={togglePopup}>See Project</button>
             </div>
           </div>
         </div>
@@ -57,6 +64,14 @@ const Portfolio = () => {
           )}
         </ul>
       </div>
+      <>
+        {isOpen && (
+        <PopUP
+          data={info.data[0]}
+          handleClose={togglePopup}
+        />
+        )}
+      </>
     </>
   );
 };
