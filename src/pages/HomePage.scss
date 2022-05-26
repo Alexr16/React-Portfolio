@@ -14,14 +14,15 @@ body {
 
 .button {
   padding: 0.5rem 1.25rem;
-  background-color: black;
+  background-color: #05e8ba;
+  background-image: linear-gradient(70deg, #05e8ba 0%, #087ee1 54%);
+  border: none;
   color: white;
   font-family: Mosk,sans-serif;
   font-weight: 600;
   letter-spacing: .02em;
-  border: 2px solid white;
-  -webkit-box-shadow: 3px 3px #536e87;
-          box-shadow: 3px 3px #536e87;
+  -webkit-box-shadow: 3px 3px #8e8dab;
+          box-shadow: 3px 3px #9493a3;
 }
 
 .headline-icons {
@@ -149,7 +150,6 @@ body {
 
   h2 {
     margin-top: 0px;
-    margin-bottom: 10%;
     margin-left: -1px;
     font-family: Neuemontreal, sans-serif;
     color: #fff;
@@ -191,15 +191,18 @@ body {
   // position: relative;
   // z-index: 2;
   // padding-top: 25px;
-  background-color: #112240;
-  color: #a8b2d1;
+  background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+
+
+  color: #fff;
   font-size: 18px;
 }
 
 .project-img {
   position: relative;
-  top: 20px;
-  left: 30px;
+  top: 10px;
+  left: 40px;
   z-index: -1;
 }
 
@@ -226,6 +229,67 @@ body {
 
 .project-button {
   margin-top: 0;
+}
+
+.projects-container {
+  margin-left: 14%;
+  margin-right: auto;
+  color: #fff;
+}
+
+.project-cards-container {
+  margin-right: 7%;
+  list-style-type: none;
+  padding-top: 0;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  row-gap: 30px;
+  column-gap: 15px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: right;
+  text-align: end;
+}
+
+.project-cont {
+  box-shadow: 0 10px 30px -15px rgba(219, 224, 232, 0.7);
+  border: 0.5px solid #2f3836;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  h3 {
+    margin:1em;
+  }
+}
+
+.project-paragraph {
+  text-align: start;
+  p {
+    margin: 0 1.5rem;
+    font-size: 0.8em;
+  }
+}
+
+.card-project-button {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  width: 100%;
+  background-color: #05e8ba;
+  background-image: linear-gradient(70deg, #05e8ba 0%, #087ee1 54%);
+
+  color: white;
+  font-family: Mosk,sans-serif;
+  font-weight: 600;
+  letter-spacing: .02em;
+
+  // border: 2px solid white;
 }
 
 .about-container {
@@ -324,16 +388,15 @@ body {
     font-family: Neuemontreal, sans-serif;
     letter-spacing: .04em;
     font-size: 2.5em;
-    color: #121212;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #FFFFFF;
+    color: #fff;
     margin-block-start: 0;
     margin-block-end: 0;
   }
 }
 
 .framework {
-  background-color: aqua;
+  background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -393,7 +456,9 @@ body {
   margin-bottom: 10px;
   margin-left: 10px;
   border-radius: 5px;
-  background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+  background-color: #0499f2;
+  background-image: linear-gradient(150deg, #0499f2 0%, #26f596 54%);
+  
   // animation: 0.8s anim-lightspeed-in ease forwards;
   // .chart--dev & {
   //   @include stagger-anim-delay(11, 0.5s, 0.2s);
@@ -487,7 +552,7 @@ body {
 }
 
 .form-decoration {
-  background-color: blanchedalmond;
+  background-color: #03a9f4;
 }
 
 .footer {
