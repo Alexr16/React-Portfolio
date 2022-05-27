@@ -34,13 +34,13 @@ const Popup = (prop) => {
             </div>
             <div className="popup-buttons">
               <button type="button" className="link" label="Live link">
-                <a href={data.liveButton} aria-label="Live link" className="link-btn">
+                <a href={data.liveButton} aria-label="Live link" className="link-btn" target="_blank" rel="noreferrer noopener">
                   See live
                   <RiPagesFill />
                 </a>
               </button>
               <button type="button" className="link" label="Source link">
-                <a href={data.sourceButton} aria-label="Source link" className="link-btn">
+                <a href={data.sourceButton} aria-label="Source link" className="link-btn" target="_blank" rel="noreferrer noopener">
                   See Source
                   <FiGithub />
                 </a>
