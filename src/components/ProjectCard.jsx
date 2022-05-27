@@ -20,7 +20,7 @@ const ProjectCard = (prop) => {
   };
 
   const hover = {
-    backgroundImage: isHovering ? `url(${project.image})` : '',
+    backgroundImage: isHovering || (window.innerWidth < 769) ? `url(${project.image})` : '',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     backgroundSize: 'contain',
