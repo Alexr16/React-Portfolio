@@ -27,7 +27,7 @@ const HomePage = () => (
           </p>
         </div>
       </div>
-      <div>
+      <div className="header-img-container">
         <img src={profile} alt="profile" width="90%" />
       </div>
     </div>
