@@ -16,6 +16,7 @@ const ProjectCard = (prop) => {
   };
 
   const togglePopup = () => {
+    document.body.classList.toggle('hidden');
     setIsOpen(!isOpen);
   };
 
