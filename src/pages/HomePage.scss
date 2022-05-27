@@ -1041,61 +1041,14 @@ body {
   }
    
   .box {
-    position: relative;
     width: 80%;
-    margin: 0 auto;
-    height: auto;
-    max-height: 70vh;
-    margin-top: calc(100vh - 85vh - 20px);
-    background: #000;
-    border-radius: 4px;
-    padding: 20px;
-    border: 1px solid #999;
-    overflow: auto;
-    transition: 1s;
-    -webkit-box-shadow: 3px 3px #8e8dab;
-    box-shadow: 7px 7px #9493a3;
-  }
-  
-  .close-button {
-   display: flex;
-   justify-content: flex-end;
-  }
-  
-  .close-btn{
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    appearance: none;
-    border: none;
-    background: none;
-    cursor: pointer;
+    height: 85%;
+    max-height: 90vh;
+    margin-top: 2rem;
   }
   
   .title-pop {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: -1px;
-    font-family: Neuemontreal, sans-serif;
-    color: white;
-    font-size: 4vw;
-  }
-  
-  .tag-container {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .pop-tech-list {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin-top: 20px;
-    margin-right: 15px;
-    margin-bottom: 10px;
-    padding-top: 0;
-    list-style-type: none;
-    padding-inline-start: 0;
+    font-size: 7vw;
   }
   
   .popup-images {
@@ -1103,52 +1056,12 @@ body {
   }
   
   .popup-work {
-    display: grid;
-    margin-top: 1vw;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 60% 40%;
+    display: flex;
+    flex-direction: column;
   }
   
   .cont {
-    margin-left: 2rem;
-  }
-  
-  .pop-paragraph {
-    color: white;
-    // line-height: 30px;
-    margin: 0;
-    padding-bottom: 2rem;
-    font-size: 0.8em;
-  }
-  
-  .popup-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-  }
-  
-  .link {
-    padding: 0.5rem 1.25rem;
-    vertical-align: middle;
-    background-color: #05e8ba;
-    background-image: linear-gradient(70deg, #05e8ba 0%, #087ee1 54%);
-    border: none;
-    color: white;
-    font-family: Mosk,sans-serif;
-    font-weight: 600;
-    letter-spacing: .02em;
-    -webkit-box-shadow: 3px 3px #8e8dab;
-            box-shadow: 3px 3px #9493a3;
-  
-    a {
-      color: white;
-      text-decoration: none;
-      cursor: auto;
-    }
-  }
-  
-  .link-btn svg{
-    vertical-align: middle;
-    margin-left: 0.5rem;
+    margin-left: 0;
+    margin-top: 2rem;
   }
 }
