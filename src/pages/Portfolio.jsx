@@ -14,6 +14,7 @@ const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const togglePopup = () => {
+    document.body.classList.toggle('hidden');
     setIsOpen(!isOpen);
   };
 
