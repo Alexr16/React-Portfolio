@@ -20,7 +20,7 @@ const About = () => (
           </p>
         </div>
         <div>
-          <button type="button" className="about-button button">Get My Resume</button>
+          <button type="button" className="about-button button"><a href="https://drive.google.com/file/d/1HxC3yyTdfbLixmtlljqaGimO9HGGcBdG/view?usp=sharing" aria-label="Jorge's resume" target="_blank" rel="noreferrer noopener">Get My Resume</a></button>
         </div>
       </div>
       <div className="about-image">
