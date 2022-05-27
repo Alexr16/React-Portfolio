@@ -6,9 +6,17 @@ import React, { useState } from 'react';
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  const displayMenu = () => {
+    if (window.innerWidth < 769) {
+      document.body.classList.toggle('hidden');
+      setShowMenu(!showMenu);
+    }
+  };
+
   const handleClick = () => {
     if (window.innerWidth < 769 && showMenu === true) {
       setShowMenu(!showMenu);
+      document.body.classList.toggle('hidden');
     }
   };
   // const ulStyle = {
@@ -66,16 +74,15 @@ const NavBar = () => {
         </h1>
       </div>
       <div className="menu">
-        <button className="hamburguer" type="button" label="menu" onClick={() => setShowMenu(!showMenu)}>{showMenu ? (<AiFillCloseCircle />) : (<AiOutlineMenu />)}</button>
+        <button className="hamburguer" type="button" label="menu" onClick={displayMenu}>{showMenu ? (<AiFillCloseCircle />) : (<AiOutlineMenu />)}</button>
       </div>
       <ul className={showMenu ? 'menu-link mobile-menu' : 'menu-link'}>
         <li key={1} className="menu-item"><NavHashLink smooth to="#Portfolio" className="nav-link-style" onClick={handleClick}>Portfolio</NavHashLink></li>
         <li key={2} className="menu-item"><NavHashLink smooth to="#About" className="nav-link-style" onClick={handleClick}>About</NavHashLink></li>
         <li key={3} className="menu-item"><NavHashLink smooth to="#Contact" className="nav-link-style" onClick={handleClick}>Contact</NavHashLink></li>
         {/* {showMenu && window.innerWidth < 769 && <div className="menu-social-container">
-        <Social /></div>} */}
+    <Social /></div>} */}
       </ul>
-
     </nav>
   );
 };
