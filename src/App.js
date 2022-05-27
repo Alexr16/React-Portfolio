@@ -9,7 +9,6 @@ import Social from './components/Social';
 const App = () => (
   <Router>
     <NavBar />
-    <Social />
     <Routes>
       <Route
         path="/"
@@ -26,6 +25,7 @@ const App = () => (
       <Route path="/about" element={t} />
       <Route path="/contact-form" element={e} /> */}
     </Routes>
+    <Social />
   </Router>
 );
 
