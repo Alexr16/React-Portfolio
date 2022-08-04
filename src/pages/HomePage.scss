@@ -291,7 +291,7 @@ body {
 
 .project-container {
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-items: right;
   text-align: end;
 }
@@ -302,6 +302,8 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  width: 400px;
+  height: 300px;
 
   h3 {
     margin:1em;
@@ -730,8 +732,8 @@ body {
   a {
     color: white;
     text-decoration: none;
-    cursor: auto;
   }
+  cursor: pointer;
 }
 
 .link-btn svg{
