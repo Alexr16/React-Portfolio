@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.3930ce6e.css",
+    "main.js": "/React-Portfolio/static/js/main.e3316618.js",
+    "static/media/conference.png": "/React-Portfolio/static/media/conference.454c18f20697e5df7748.png",
+    "static/media/me-1.svg": "/React-Portfolio/static/media/me-1.3f38f709e9b69ed895eb24360e8ec585.svg",
+    "static/media/covidapp.png": "/React-Portfolio/static/media/covidapp.2cde8f36286dbd5558da.png",
+    "static/media/pokemon.jpg": "/React-Portfolio/static/media/pokemon.92081ca151c08d33bc40.jpg",
+    "static/media/budgetapp.jpg": "/React-Portfolio/static/media/budgetapp.db2ca43c87f30e1d884a.jpg",
+    "static/media/map.svg": "/React-Portfolio/static/media/map.081ba4661eb0b4a796c979e6cdb3051b.svg",
+    "static/media/bookstore.png": "/React-Portfolio/static/media/bookstore.319039c95adcb3847a38.png",
+    "static/media/recipeapp.png": "/React-Portfolio/static/media/recipeapp.cf878b4c782304957991.png",
+    "static/media/profile.PNG": "/React-Portfolio/static/media/profile.d0768f2fe21ed81ca89b.PNG",
+    "index.html": "/React-Portfolio/index.html",
+    "main.3930ce6e.css.map": "/React-Portfolio/static/css/main.3930ce6e.css.map",
+    "main.e3316618.js.map": "/React-Portfolio/static/js/main.e3316618.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3930ce6e.css",
+    "static/js/main.e3316618.js"
+  ]
+}
