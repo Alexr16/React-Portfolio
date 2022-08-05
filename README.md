@@ -20,7 +20,7 @@
 ## Live Demo
 
 For a live demo
-- Netlify [click here]().
+- Netlify [click here](https://the-awesome-alexr16-site.netlify.app).
 
 ## Getting Started
 

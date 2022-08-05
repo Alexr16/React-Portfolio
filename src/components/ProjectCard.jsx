@@ -21,12 +21,12 @@ const ProjectCard = (prop) => {
   };
 
   const hover = {
-    backgroundImage: isHovering || (window.innerWidth < 769) ? `url(${project.image})` : '',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundSize: 'contain',
-    backgroundColor: isHovering ? 'rgb(33, 37, 41)' : '',
-    color: isHovering ? 'black' : '',
+    // backgroundImage: isHovering || (window.innerWidth < 769) ? `url(${project.image})` : '',
+    // backgroundRepeat: 'no-repeat',
+    // backgroundPosition: 'center',
+    // backgroundSize: 'contain',
+    // backgroundColor: isHovering ? 'rgb(33, 37, 41)' : '',
+    // color: isHovering ? 'black' : '',
   };
 
   return (
@@ -38,6 +38,9 @@ const ProjectCard = (prop) => {
           onMouseLeave={handleMouseLeave}
           style={hover}
         >
+          <div className="project-image">
+            <img className="img" src={project.image} alt={project.title} />
+          </div>
           <h3>{project.title}</h3>
           <div className="project-paragraph">
             <p>{project.description}</p>
