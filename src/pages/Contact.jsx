@@ -13,7 +13,7 @@ const Contact = () => (
             please get in touch.
           </p>
         </div>
-        <form id="form" className="form">
+        <form id="form" className="form" action="https://formspree.io/f/mbjwyyze" method="POST">
           <ul className="contact-form">
             <li className="full-name-input">
               <input className="full-name" id="full-name" type="text" name="name" maxLength="30" placeholder="Full name" required />
