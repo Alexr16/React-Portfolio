@@ -4,6 +4,7 @@ import bookstore from '../images/bookstore.png';
 import covidapp from '../images/covidapp.png';
 import recipeapp from '../images/recipeapp.png';
 import budgetapp from '../images/budgetapp.jpg';
+import hotelapp from '../images/hotelaget.png';
 
 const projectData = [
   {
@@ -145,6 +146,28 @@ const projectData = [
     liveButton: 'https://glacial-waters-55756.herokuapp.com',
     sourceButton: 'https://github.com/Alexr16/Budget-app',
     image: budgetapp,
+  },
+  {
+    id: 7,
+    title: 'Hotel Agent',
+    technologies: [
+      {
+        id: 't20',
+        technologie: 'React and Redux',
+      },
+      {
+        id: 't21',
+        technologie: 'Ruby on Rails',
+      },
+      {
+        id: 't22',
+        technologie: 'SASS',
+      },
+    ],
+    description: 'An app in which you can reserve a hotel. Sign up and sign in to access the app. Add and Remove the hotel that you want to stay in. Reserve how many rooms days you need. Get cost information for the reservation process, see the list of available hotels',
+    liveButton: 'https://musical-caramel-97a830.netlify.app',
+    sourceButton: 'https://github.com/Alexr16/hotel-agent-front-end',
+    image: hotelapp,
   },
 ];
 
