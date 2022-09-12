@@ -11,12 +11,11 @@ const About = () => (
         </div>
         <div className="about-paragraph">
           <p>
-            I can help you build a product, feature or
-            website. Look through some of my work
-            and experience! If you like what you see
-            and have a project you need coded,
-            don&rsquo;t
-            hestiate to contact me.
+            Software engineer with experience in pair-programming,
+            mentoring junior developers, and fluency in multiple languages,
+            frameworks, and technology. 
+            Passionate for UI design, knowledgeable person, fast learner,
+            and very optimistic with the inspiration to do my best.
           </p>
         </div>
         <div>
