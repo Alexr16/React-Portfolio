@@ -22,7 +22,7 @@ const HomePage = () => (
             and experience! If you like what you see
             and have a project you need coded,
             don&rsquo;t
-            hestiate to contact me.
+            hesitate to contact me.
 
           </p>
         </div>
