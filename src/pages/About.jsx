@@ -13,7 +13,7 @@ const About = () => (
           <p>
             Software engineer with experience in pair-programming,
             mentoring junior developers, and fluency in multiple languages,
-            frameworks, and technology. 
+            frameworks, and technology.
             Passionate for UI design, knowledgeable person, fast learner,
             and very optimistic with the inspiration to do my best.
           </p>
